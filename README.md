@@ -13,3 +13,4 @@ Basic Rollup options:
 | Format              | -f cjs                | format: 'cjs'                   |
 | External (exclude)  | -e moment,jquery      | external: ['momment', 'jquery'] |
 | Globals (window.X)  | -g backbone:Backbone, | globals: {backbone: 'Backbone'} |
+| Name (for UMD/IIFE) | -n myBundle,          | moduleName: 'myBundle'          |
