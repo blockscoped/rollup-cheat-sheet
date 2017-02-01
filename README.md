@@ -14,3 +14,4 @@ Basic Rollup options:
 | External (exclude)  | -e moment,jquery      | external: ['momment', 'jquery'] |
 | Globals (window.X)  | -g backbone:Backbone, | globals: {backbone: 'Backbone'} |
 | Name (for UMD/IIFE) | -n myBundle,          | moduleName: 'myBundle'          |
+| ID (for AMD)        | -u my-bundle,         | moduleId: 'my-bundle'           |
