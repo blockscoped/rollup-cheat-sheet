@@ -3,13 +3,13 @@ A quick reference to the options/plugins for the JS module bundler Rollup
 
 Basic Rollup options:
 
-| Option              | Command-Line          | Config/API                      | Default | Possible Options        |
-| ------------------- | --------------------- | ------------------------------- | ------- | ----------------------- |
-| Show version number | -v                    | N/A                             | N/A     | N/A                     |
-| Use config file     | -c [path]             | N/A                             | N/A     | N/A                     |
-| Watch (rebundle)    | -w                    | N/A                             | Off     | N/A                     |
-| Input (entry file)  | -i src/main.js        | entry: 'src/main.js'            | N/A *   | N/A                     |
-| Output              | -o dist/bundle.js     | dest: 'dist/bundle.js'          | Stdout  | N/A                     |
-| Format              | -f cjs                | format: 'cjs'                   | es      | amd, cjs, es, iife, umd |
-| External (exclude)  | -e moment,jquery      | external: ['momment', 'jquery'] | N/A     | N/A                     |
-| Globals (window.X)  | -g backbone:Backbone, | globals: {backbone: 'Backbone'} | N/A     | N/A                     |
+| Option              | Command-Line          | Config/API                      |
+| ------------------- | --------------------- | ------------------------------- |
+| Show version number | -v                    | N/A                             |
+| Use config file     | -c [path]             | N/A                             |
+| Watch (rebundle)    | -w                    | N/A                             |
+| Input (entry file)  | -i src/main.js        | entry: 'src/main.js'            |
+| Output              | -o dist/bundle.js     | dest: 'dist/bundle.js'          |
+| Format              | -f cjs                | format: 'cjs'                   |
+| External (exclude)  | -e moment,jquery      | external: ['momment', 'jquery'] |
+| Globals (window.X)  | -g backbone:Backbone, | globals: {backbone: 'Backbone'} |
