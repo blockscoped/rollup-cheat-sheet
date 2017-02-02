@@ -15,3 +15,4 @@ Basic Rollup options:
 | Globals (window.X)  | -g backbone:Backbone, | globals: {backbone: 'Backbone'} |
 | Name (for UMD/IIFE) | -n myBundle,          | moduleName: 'myBundle'          |
 | ID (for AMD)        | -u my-bundle,         | moduleId: 'my-bundle'           |
+| Source Maps         | -m [inline],          | sourceMap: true                 |
